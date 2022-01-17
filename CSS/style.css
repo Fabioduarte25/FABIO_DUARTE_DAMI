@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+}
+body {
+    padding-top: 250px;
+}
+
+header{
+    position:fixed;
+    width: 100%;
+    height: 60px;  
+    background-color: white;  
+    display: flex;
+    flex-direction: column; 
+        padding-top: 30px;
+        top: 0;
+    }
+.logotipo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    margin-left: 650px;
+}
+.logotipo img{
+    margin-bottom: 10px;
+}
+nav{
+    background-color: white;
+    position:fixed;
+    width: 100%;
+    margin-top: 55px;
+    margin-bottom: 15px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3em;
+    width: 100%;
+    list-style: none;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font: bold;
+}
+nav ul li a:hover{
+    color:green
+}
+aside{
+    width: 30%;
+    height: 100%;
+    float:left;
+    margin: left 10px;
+    
+    align-items: flex-start;
+}
+.blogger{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    margin: 15px;
+    text-align: center; 
+    justify-content: flex-end;
+}
+.libro{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 15px;
+    text-align: justify; 
+    background-color:#dddddd;
+    align-items:center;
+}
+.img-libro{
+    width: 80%;
+    height: 80%;
+    align-items: center;
+}
+.apuntame{
+    background-color:#6eebb0 ; 
+    width: 100%;
+    text-align: center;
+}
+main{
+    float:right;
+    width: 70%;
+    height: 100%;
+    position: inherit;
+    
+}
+article{
+    display: flex;
+    flex-direction: column;
+    width: 235px;
+    margin-right: 2%;
+    margin-bottom: 15px;
+    text-align: center;  
+    justify-content: center;
+    align-items: center;
+}
+ 
+main .larticulo{
+    width:33,33%;
+    display: inline-block;
+    margin: 15px 20px;
+    padding: 50px;
+}
+main .rarticulo{
+    width:33,33%;
+    display: inline-block;
+    margin: 2cm;
+}
+
+ 
+article img {
+    width:300PX;
+}
+footer{
+    background-color: black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    clear: left;
+    width: 100%;   
+    border: 1px solid black;
+    height: 60px;
+}
+footer p a{
+    color:white;
+    padding: 15px ;
+    text-decoration: none;
+}
+main article .fecha{
+    border-bottom: 1px solid #6eebb0 ;
+    border-top:1px solid #6eebb0;
+    margin: 15px;
+    width: 60%;
+    height: 20px;
+}
+h3 p a:hover{
+    color: green;
+}
+h3 p a {
+    text-decoration: none;
+}

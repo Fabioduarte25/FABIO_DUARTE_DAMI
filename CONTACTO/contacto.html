@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- *****************************************************
+NOMBRE:FABIO ISMAEL
+APELLIDOS:DUARTE
+*********************************************************** -->
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="/CSS/contacto.css" />
+	<title>formulario de contacto</title>
+</head>
+
+<body>
+    <header>
+        <div class="logotipo">
+            <img src="/MULTIMEDIA/IMAGENES/Logo-Delicias.png" alt="">
+        </div>       
+		<nav>
+			<ul>
+			<li><a href="/RECETA/index.html"> Inicio </a></li>
+			<li><a href="/RECETA/receta.html"> Recetas </a></li>
+			<li><a href="/CONTACTO/contacto.html">	Contacto </a></li>
+			<li><a href="/LISTADO/listado.html"> Otras cosas </a></li>
+		
+			</ul>
+		</nav>
+    </header>
+    <section>
+        <h1>Contacta con nosotros</h1><br><br>
+        <h3>Date de alta en nuesta web y dejanos un comentario o una propuesta de una nueva receta</h3><br>
+        <form action="" method="get">
+            <label for="fname">Nombre <span>*</span></label><br>
+            <input type="text" id="fname" name="fname" required><br><br>
+
+            <label for="lname">Apellidos</label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+
+            <label for="fechaNacimiento">Fecha de nacimiento</label><br>
+            <input type="date" id="fechaNacimiento" name="fechaNacimiento"><br><br>
+
+            <label for="mail">Email <span>*</span></label><br>
+            <input type="email" id="mail" name="email" placeholder="ejemplo@gmail.com" required><br><br>
+
+            <label for="telefono">Numero de Telefono <span>*</span></label><br>
+                <select name="telefono" id="telefono">
+                    <option value="prefijoEspaña">+34</option>
+                    <option value="prefijoArgentina">+54</option>
+                </select>
+           <input type="tel" id="telefono" name="telefono" required ><br><br>
+           <div class="selector">    
+           <label for="genero">Genero:</label><br>
+           <label><input type="radio" value="masculino" name="genero" id="genero">Masculino</label>
+           <label><input type="radio" value="femenino" name="genero" id="genero">Femenino</label>
+           <label><input type="radio" value="noBinario" name="genero" id="genero">No binario</label>
+           <label><input type="radio" value="otro" name="genero" id="genero">otro</label> <br><br>
+        </div> 
+           <label for="asunto">Asunto<span>*</span></label>
+           <input type="text" name="introducir_asunto" id="assunto" required placeholder="Escribe un asunto"><br><br><br>
+
+           <label for="mensaje">Mensaje <span>*</span></label><br>
+           <textarea name="introducirMensaje" id="mensaje" required cols="50" rows="10" placeholder="Deja aqui tu comentario, duda o idea "></textarea><br><br>
+
+           <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+
+           <p><span>*</span> Los campos son obligatorios</p>
+
+
+            
+    </form>
+    </section>
+
+</body>
+<footer>
+    <p><a href="">Facebook</a></p>
+    <p><a href="">Instagram</a></p>
+    <p><a href="">Pinterest</a></p>
+    <p><a href="">Email</a></p>
+    <p><a href="">RSS</a></p>
+        
+</footer>
+</html>
